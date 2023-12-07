@@ -25,11 +25,3 @@ const cells = function () {
   }
 };
 cells();
-
-const attachDelete = function () {
-  const aButtons = document.getElementsByClassName("backcell");
-  for (let i = 0; i < 90; i++) {
-    [i].innerText = i++;
-  }
-};
-attachDelete();
